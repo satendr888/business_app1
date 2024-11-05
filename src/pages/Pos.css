@@ -1,0 +1,138 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    width:100vw
+}
+
+.Pos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 28px;
+    background-color: #F6F6F6;
+    margin: 18px 12px;
+    height: auto;
+    border-radius: 10px;
+    border: 0.6px solid gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.Pocent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 49px;
+}
+.Poimg{
+    height: 33.57%;
+    width: 29.33%;
+}
+
+.ptext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    margin-top: 23px;
+  }
+  
+  .center-text {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.2;
+    margin: 5px 0;
+  }
+
+  .s1{
+    font-size: 2.5vh;
+    font-weight: bolder;
+    color:  #483EA8;
+    ;
+  }
+
+  
+  .s2{
+    font-size: 2vh;
+    color: #010101;
+    font-weight: 470;
+    
+  }
+  .s3{
+    font-size: 1.7vh;
+    
+    color: #252728;
+
+    
+  }
+
+.Seat{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    margin: 19px;
+    margin-top: 15px;
+}
+.Sbtn{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    margin: 4vh;
+    gap: 0.7rem;
+}
+
+.inc{
+    height: 6vh;
+    width: 10vw;
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #19AD45;
+    color: white;
+    border: 1px solid #19AD45;
+    
+}
+
+.dec{
+    height: 6vh;
+    width: 10vw;
+    font-size: 5vw;
+    text-align: center;
+    border-radius: 9px;
+    background-color: #19AD45;
+    color: white;
+    border: 1px solid #19AD45;
+    
+}
+.cnt{
+    width: 25vw;
+    height: -13vh;
+    text-align: center;
+    font-size: 1rem;
+    background-color: white;
+    padding: 2vh;
+    border: 2px solid #19AD45;
+    margin-top: -3px;
+    border-radius: 7px;
+    margin-top: -3px;
+}
+.btnb1{
+    text-align: center;
+    width: 89vw;
+    height: 7vh;
+    border-radius: 6px;
+    background-color: #00591B;
+    color: white;
+    font-size: 3vw;
+    font-weight: bold;
+}
+.btnb{
+    
+    display: flex;
+    justify-content: center;
+    /* width: 101vw; */
+    margin-bottom: 122px;
+}

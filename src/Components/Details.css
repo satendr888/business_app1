@@ -1,0 +1,84 @@
+.detai{
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-top: 16px;
+    margin-bottom: 22px;
+}
+.less{
+    width: 4vw;
+    height: 2vh;
+    /* margin-left: 4px; */
+    margin-top: 5px;
+}
+.tab{
+    width: 100vw;
+    border-collapse: collapse;
+    margin-top: 3vh;
+    
+}
+.tabl{
+    width: 91vw;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.imgo{
+    margin-top: 3vh;
+    margin-left: 5vw;
+}
+.coup{
+    margin-top: 16px;
+    width: 100vw;
+}
+
+.circular-checkbox {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    flex-direction: column;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .hidden-checkbox {
+    display: none; /* Hide the default checkbox */
+  }
+  
+  .checkmark {
+    width: 24px; /* Size of the circular checkbox */
+    height: 24px; /* Size of the circular checkbox */
+    border: 2px solid #ccc;
+    border-radius: 50%; /* Make it circular */
+    margin-right: 10px; /* Space between checkbox and text */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: border-color 0.2s, background-color 0.2s;
+  }
+  
+  .checkmark.checked {
+    border-color: #4caf50; /* Change border color when checked */
+    background-color: #e7ffe7; /* Background color when checked */
+  }
+  
+  .checkmark.checked::after {
+    content: '';
+    width: 10px; /* Size of the inner check mark */
+    height: 10px; /* Size of the inner check mark */
+    background-color: #4caf50; /* Inner check mark color */
+    border-radius: 50%; /* Make the inner check mark circular */
+  }
+
+  .ptb{
+    width: 100vw;
+  }
+ .ptm{
+    width: 90vw;
+    border: 2px solid;
+    margin: 0 auto;
+    margin-top: 43px;
+ }

@@ -1,0 +1,73 @@
+.Vid{
+    
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+
+}
+.Vids{
+  /* background-color: aqua; */
+  /* width: 100vw; */
+  /* margin: 0 14px; */
+  margin-left: 14px;
+  margin-right: 14px;
+  height: auto;
+  background-color: white;
+  margin-bottom: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.text{
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  gap: 0.5rem;
+  margin-left: 12px;
+  /* background-color: blue; */
+  width: 86vw;
+  padding-right: 16px;
+}
+.Vids{
+  display: flex;
+  flex-direction: row;
+}
+.vidp{
+  margin-left: -25px;
+  /* background-color: blueviolet; */
+  /* height: auto; */
+  margin-right: -34px;
+  height: 100%;
+
+}
+.spimg{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn1g{
+  font-size: 3vw;
+  font-weight: bold;
+  background-color: white;
+  color: red;
+  border-radius: 8px;
+  width: 36vw;
+  /* height: 7vh; */
+  border: 1px solid red;
+  padding: 1vw;
+  white-space: nowrap;
+
+}
+.btn11{
+   font-size: 3vw;
+    font-weight: bold;
+    background-color: white;
+    color: red;
+    border-radius: 8px;
+    width: 37vw;
+    /* height: 7vh; */
+    border: 1px solid red;
+    padding: 1vw;
+    white-space: nowrap;
+  white-space: nowrap;
+  margin-bottom: 13px;
+}

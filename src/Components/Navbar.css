@@ -1,0 +1,12 @@
+
+.front{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 22px;
+    gap: 57vw;
+}
+.less{
+    width: 4vw;
+    height: 4vh;
+}

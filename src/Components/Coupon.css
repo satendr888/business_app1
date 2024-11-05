@@ -1,0 +1,228 @@
+/* OrderDetails.css */
+.container {
+  width: 100vw;
+  margin: 0 auto;
+  background-color: white;
+  /* min-height: 100vh; */
+}
+
+.header {
+  padding: 16px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  align-items: center;
+}
+
+.back-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
+  cursor: pointer;
+}
+
+.header h1 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-right: 271px;
+}
+
+.content {
+  padding: 20px;
+}
+
+.card {
+ 
+  padding: 16px;
+  margin-bottom: 24px;
+  margin-top: 55px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 16px;
+  /* width: 100vw; */
+ 
+}
+
+/* Order Summary Styles */
+.order-summary table {
+ width: 100%;
+  border-collapse: collapse;
+}
+
+.order-summary th {
+  text-align: left;
+  padding: 8px 0;
+}
+
+.order-summary td {
+  padding: 8px 0;
+}
+
+.total {
+  font-weight: 600;
+}
+.order-summary table {
+  width: 100%;
+  border-collapse: collapse;
+  
+}
+
+.order-summary th {
+  text-align: center;
+  padding: 17px;
+  border-bottom: 1px solid #e5e7eb;
+  background-color: #f9fafb;
+  font-size: 23px;
+}
+
+.order-summary td {
+  padding: 17px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 18px;
+}
+
+.order-summary tr:last-child td {
+  border-bottom: none;
+}
+
+.order-summary th:not(:last-child),
+.order-summary td:not(:last-child) {
+  border-right: 1px solid #e5e7eb;
+}
+
+.total {
+  font-weight: 600;
+  background-color: #f9fafb;
+}
+
+/* Offers Section Styles */
+.offers-section {
+  margin: 0 5px;
+  margin-top: 8px;
+}
+
+.offers-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.offer-icon {
+  margin-right: 8px;
+  color: #22c55e;
+}
+
+.offers-header h2 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e3a8a;
+  margin: 0;
+}
+
+.coupon-input {
+  display: flex;
+  gap: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  margin-top: -14px;
+}
+
+.coupon-input input {
+  flex-grow: 1;
+    padding: 19px 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 17px;
+}
+
+.apply-button {
+  padding: 8px 24px;
+  background-color: #e5e7eb;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.apply-button:hover {
+  background-color: #d1d5db;
+}
+
+/* Payment Options Styles */
+.payment-options h2 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 6px 0 16px 0;
+
+}
+
+.payment-option {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 450;
+  margin-left: -16px;
+  margin-bottom: 13px;
+}
+
+.payment-option:hover {
+  background-color: #f3f4f6;
+}
+
+.option-label {
+  display: flex;
+  align-items: center;
+}
+
+.payment-icon {
+  width: 26px;
+  height: 24px;
+  margin-right: 12px;
+  margin-top: 5px;
+
+}
+
+.radio {
+  width: 24px;
+  height: 24px;
+  border: 2px solid #d1d5db;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.radio.selected {
+  border-color: #2563eb;
+}
+
+.radio-inner {
+  width: 12px;
+  height: 12px;
+  background-color: #2563eb;
+  border-radius: 50%;
+  display: none;
+}
+
+.radio.selected .radio-inner {
+  display: block;
+}
+
+/* Pay Button Styles */
+.pay-button {
+  width: 100%;
+  padding: 16px;
+  background-color: #166534;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 26px;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 164px;
+}
+
+.pay-button:hover {
+  background-color: #15803d;
+}

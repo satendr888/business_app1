@@ -1,0 +1,384 @@
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    padding: 0;
+
+}
+html{
+    width:100vw
+}
+.header{
+    
+    margin-top: -10px;
+    display: flex;
+    /* overflow:hidden; */
+   
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+.ImgLogo{
+    margin-top: 10px;
+    height: 6vh;
+    width: 24vw;
+    margin-left: -3px;
+}
+.logoutbtn{
+    
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    margin-top: 15px;
+    
+    font-size: 3vw; /* You can also convert this to vh if necessary */
+    width: fit-content;
+    height: fit-content ;
+    margin-right: -3px;
+    font-weight: bolder;
+    padding: 1vh 7vw;
+    
+}
+.logoutbtn:hover{
+    cursor: pointer;
+    background-color: azure;
+    color: black;
+}
+
+.Agent{
+    display: flex;
+    flex-direction: row;
+    /* height: 9vh; */
+    width: 93vw;
+    /* padding: 0 12px; */
+    /* padding: 0 12px  ; */
+    background-color:  #FFE8FA;
+    margin: 0 3vw;
+    /* margin-right: 12px; */
+    margin-top: 16px;
+    border-radius: 16.3vh;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.manimg{
+    width: 17vw;
+    /* height: 9vh; */
+    
+}
+
+.Con{
+    margin-left: 2vw;
+    margin-bottom: auto;
+    margin-top: auto;
+    font-weight: bolder;
+    font-size: 4vw;
+    white-space: nowrap;
+}
+
+.Warn{
+    display: flex;
+    flex-direction: row;
+    margin: 0 12px;
+    margin-top: 12px;
+   /* ÷ margin-left: 12px; */
+    /* background-color: red; */
+    border-radius: 19px;
+    /* width: 353px; */
+    /* height: 64px; */
+}
+.Wimg{
+    width: 98%;
+}
+
+.Pos{
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    background-color: #F6F6F6;
+    margin: 18px 12px;
+    height: auto;
+    border-radius: 10px;
+    border: 0.6px solid gray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+.Pocent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.Poimg{
+    height: 33.57%;
+    width: 29.33%;
+    
+}
+
+.ptext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+  }
+  
+  .center-text {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.2;
+    margin: 5px 0;
+  }
+
+  .s1{
+    font-size: 3vh;
+    font-weight: bolder;
+    color:  #483EA8;
+    ;
+  }
+
+  
+  .s2{
+    font-size: 2vh;
+    color: #010101;
+    font-weight: 470;
+    
+  }
+  .s3{
+    font-size: 1.7vh;
+    
+    color: #252728;
+
+    
+  }
+
+.btn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 5vw;
+}
+.spimg{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.btn1{
+    font-size: 4vw;
+    font-weight: bold;
+    background-color:white;
+    color: red;
+    border-radius: 8px;
+    width: 43vw;
+    /* height: 7vh; */
+    border: 1px solid red;
+    padding: 1vw;
+    white-space: nowrap;
+}
+.btn2{
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: #00591B;
+    color: white;
+    border-radius: 8px;
+    width: 43vw;
+    /* height: 7vh; */
+    border: 1 px solid #00591B;
+    padding: 1vw;
+    white-space: nowrap;
+}
+
+.Gps{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 20px; */
+    background-color: #F6F6F6;
+    margin: 18px 12px;
+    border: 0.6px solid gray;
+    /* height: auto; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(112, 99, 99, 0.2);
+    
+}
+.Gpsc{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 15px;
+}
+.Gimg{
+    height: 33.57%;
+    width: 29.33%;
+    margin-top: 14px;
+}
+
+.Gtext {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    margin-top: 8px;
+  }
+  
+  .Genter-text {
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.2;
+    margin: 5px 0;
+  }
+
+  .g1{
+    font-size: 3vh;
+    font-weight: bolder;
+    color:  #483EA8;
+    ;
+  }
+
+  
+  .g2{
+    font-size: 2vh;
+    color: #010101;
+    font-weight: 470;
+    
+  }
+  .g3{
+    font-size: 1.7vh;
+    
+    color: #252728;
+
+    
+  }
+
+.btng{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    gap: 5vw;
+}
+
+.btn1g{
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: white;
+    color:red;
+    border-radius: 8px;
+    width: 43vw;
+    /* height: 7vh; */
+    border: 1px solid red;
+    padding: 1vw;
+    white-space: nowrap;
+}
+.btn2g{
+    font-size: 4vw;
+    font-weight: bold;
+    background-color: #00591B;
+    color: white;
+    border-radius: 8px;
+    width: 43vw;
+    /* height: 7vh; */
+    border: 1 px solid #00591B;
+    padding: 1vw;
+    white-space: nowrap;
+}
+
+.Contact{
+    /* display: flex;
+    flex-direction: column; */
+    align-items: center;
+    background-color: white;
+    margin: 18px 12px;
+    border: 0.6px solid #850085;
+
+    /* height: auto; */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.Men{
+    height: 120px;
+    width: 110px;
+    /* position: absolute; */
+    
+    margin-top: 35px;
+    
+}
+.Bus{
+    height: 20vh;
+    width: 67vw;
+    /* position: relative; */
+    margin-top: 53px;
+    align-items: center;
+    justify-content: center;
+    /* left: 63px; */
+    /* right: 90%; */
+    margin-top: 17px;
+    
+    /* margin-bottom: 199px; */
+}
+.Conp{
+    background-color: #FFE8FF;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0px;
+}
+.Digi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 15px;
+    margin-top: 8px;
+}
+.inq{
+    margin: 0 auto;
+    text-align: center;
+    font-size: 2vh;
+}
+.cbtn{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 81vw;
+    
+}
+.ig{
+    font-size: 3vh;
+
+}
+.cbtn1{
+    font-size: 5vw;
+    
+    color: black;
+    background-color: white;
+
+    border: 1px solid #850085;
+
+    border-radius: 9px;
+    width: 37vw;
+}
+.Imgc{
+    display: flex;
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;      /* Centers vertically */
+    /* height: 100vh; */
+    
+}
+
+.g4{
+    text-align: center;
+    margin: 10px 0;
+    line-height: 1.2;
+    margin: 5px 0;
+}
+.video{
+    margin-top: 22px;
+}
